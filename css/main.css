@@ -8,7 +8,7 @@ ul,ol{
     list-style:none;
 }
 /* 去掉所有超链接的下划线 */
-a{
+a,a:hover{
     text-decoration:none;
 }
 /* 使用继承性，给body标签设置字体 */
@@ -36,7 +36,7 @@ header .header-top .logo h1{
     width:221px;
     height:63px;
     color:#00978e;
-    font-size:20px;
+    font-size:30px;
     
 }
 header .header-top .tool{
@@ -104,5 +104,37 @@ header .header-top .tool .r2 button{
     position: relative;
     top:4px;
     right:4px;
+}
+
+header .main-nav{
+    /* 不用写宽度,这样自动撑满 */
+    height: 60px;
+    background-color:#00978e;
+    margin-top: 20px;
+}
+header .main-nav ul{
+    width:1200px;
+    height:60px;
+    margin:0 auto;
+}
+header .main-nav ul li{
+    float:left;
+    width: 150px;
+    text-align: center;
+    /* 行高等于盒子高*/
+    line-height: 60px;
+}
+header .main-nav ul li.cur{
+    background-color:#015E58;
+}
+header .main-nav ul li a{
+    display:block;
+    width:150px;
+    height:60px;
+    font-size: 16px;
+    color:#fff;
+}
+header .main-nav ul li a:hover{
+    background-color: orange;
 
 }
