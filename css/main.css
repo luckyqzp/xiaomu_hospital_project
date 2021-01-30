@@ -329,3 +329,75 @@ header .main-nav ul li a:hover{
 .content .news-and-notice .notice ol li dl dd a{
     color:#999;
 }
+.content .ad-images{
+    width:1200px;
+    margin:20px auto;
+}
+.content .dep-info{
+    height:400px;
+    background-color:#fafafa;
+}
+.content .dep-info .center{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+    padding-top:37px;
+    position: relative;
+}
+.content .dep-info .center .more{
+    position: absolute;
+    right:0;
+    top:37px;
+    color:#999;
+}
+.content .dep-info .center .col{
+    float:left;
+    width:265px;
+    padding-left:35px;
+}
+.content .dep-info .center .col h4{
+    text-align:center;
+    margin-bottom:18px;
+    margin-top:20px;
+    position: relative;
+}
+.content .dep-info .center .col h4::before{
+    content:'';
+    position: absolute;
+    left:61px;
+    top:12px;
+    width: 40px;
+    height:2px;
+    background-color: #00978e;
+}
+
+.content .dep-info .center .col h4::after{
+    content:'';
+    position: absolute;
+    left:162px;
+    top:12px;
+    width: 40px;
+    height:2px;
+    background-color: #00978e;
+}
+
+.content .dep-info .center .col li{
+    float:left;
+    width:119px;
+    height:34px;
+    border:1px solid #cdcdcd;
+    text-align:center;
+    line-height: 34px;
+    margin-right: 17px;
+    margin-bottom:16px;
+}
+.content .dep-info .center .col li a{
+    color:#333;
+}
+.content .dep-info .center .col li.spec a{
+    color:#00978e;
+    font-weight: bold;
+}
+.content .dep-info .center .col li:nth-child(2n){
+    margin-right: 0;
+}
