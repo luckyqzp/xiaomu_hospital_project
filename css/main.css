@@ -437,3 +437,44 @@ header .main-nav ul li a:hover{
     color:#333;
     line-height: 27px;
 }
+/* footer */
+footer{
+    height:395px;
+    background-color:#fafafa;
+}
+footer .center{
+    width:1200px;
+    margin:0 auto;
+    padding-top:26px;
+}
+footer .center h3{
+    font-size:20px;
+    color:#333;
+}
+footer .center .friend-links ul{
+    overflow:hidden;
+    padding-top:20px;
+
+}
+footer .center .friend-links li{
+    float:left;
+    padding:0 50px;
+}
+footer .center .friend-links li a{
+    color:#333;
+    font-size:16px;
+}
+footer .center  address{
+    font-style: normal;
+    padding-top:30px;
+}
+footer .center  address ul{
+    width:730px;
+    padding-top:20px;
+    overflow: hidden;
+}
+footer .center  address ul li{
+    float:left;
+    width:237px;
+    margin-bottom: 20px;
+}
