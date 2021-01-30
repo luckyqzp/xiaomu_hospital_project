@@ -401,3 +401,39 @@ header .main-nav ul li a:hover{
 .content .dep-info .center .col li:nth-child(2n){
     margin-right: 0;
 }
+
+.content .exp-info{
+    width:1200px;
+    padding-top:24px;
+    margin:0 auto;
+    position: relative;
+}
+.content .exp-info .more{
+    position: absolute;
+    right:0;
+    top:37px;
+    color:#999;
+}
+.content .exp-info ul{
+    overflow: hidden;
+    padding-top:40px;
+}
+.content .exp-info ul li{
+    float:left;
+    width:400px;
+    height: 240px;
+}
+.content .exp-info ul li .pixbox{
+    float:left;
+    width:152px;
+}
+.content .exp-info ul li .pixbox img{
+    width:152px;
+}
+.content .exp-info ul li .wordbox{
+    float:left;
+    width:220px;
+    padding-left:10px;
+    color:#333;
+    line-height: 27px;
+}
