@@ -195,6 +195,7 @@ header .main-nav ul li a:hover{
     left:50%;
     /* 水平居中，来回负的width的一半 */
     margin-left:-60px;
+    
 }
 .banner ol li {
     float:left;
@@ -210,4 +211,34 @@ header .main-nav ul li a:hover{
 .banner ol li.cur{
     width: 30px;
     background-color:#00978e;
+}
+/* 内容部分 */
+.content {
+    padding-top:72px;
+}
+.content .useful-links{
+    width:904px;
+    height:151px;
+    margin:0 auto;
+    
+}
+.content .useful-links ul{
+    /* 清除浮动 */
+    overflow: hidden;
+}
+.content .useful-links ul li{
+    float:left;
+    width:104px;
+    margin-right:56px;
+}
+.content .useful-links ul li span{
+    /* 转块,不设置宽度，就相当于width属性为100%了，此时可以文字text-align居中 */
+    display: block;
+    text-align:center;
+    color:#333;
+    font-size: 20px;
+    line-height: 40px;
+}
+.content .useful-links ul li:last-child{
+    margin-right: 0;
 }
